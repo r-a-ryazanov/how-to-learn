@@ -20,20 +20,6 @@
     position: relative;
     /* выше установили ограничения для секции */
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-    height: 568px;
-    width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-    width: 200px;
-    color: white;
-    margin-right: 0;
-    margin-top: 80px;
-}
 .logo{
     width:183px;
 
@@ -87,4 +73,24 @@
     right:0px;
    
     background-color:  #2F80ED;
+}
+.description{
+  border: 3px solid blue;
+  
+  
+  display: flex; 
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
 }
