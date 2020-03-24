@@ -1,3 +1,4 @@
+@import url('normalize.css');
 .page {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -13,6 +14,10 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
+    border: 3px solid red;
+    background-color: #F2F2F2;
+    display: flex;
+    position: relative;
     /* выше установили ограничения для секции */
 }
 
@@ -28,4 +33,58 @@
     color: white;
     margin-right: 0;
     margin-top: 80px;
+}
+.logo{
+    width:183px;
+
+}
+.logo_place_header{
+    height: 32px;
+    border: 3px solid red;
+    position: absolute;
+    top: 30px;
+    left:64px;
+    z-index: 2;
+
+}
+.title_place_header{
+    border: 3px solid red;
+    
+    width:730px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: 550;
+    align-self:center;
+    margin-left: 64px;
+}
+.item_place_header{
+    width: 388px;
+    border: 3px solid red;
+    position: absolute;
+    bottom: 30px;
+    left:64px;
+    z-index: 2;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.picture_place_header{
+    width: 765px;
+    height: 608px;
+    border: 3px solid red;
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    z-index: 1;
+    
+}
+.background_place_header{
+    width: 568px;
+    height: 568px;
+    border: 3px solid red;
+    position: absolute;
+    top: 64px;
+    right:0px;
+   
+    background-color:  #2F80ED;
 }
