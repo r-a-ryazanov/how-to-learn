@@ -1,0 +1,10 @@
+@import url("./_theme/sectiom-title_theme_dark.css");
+.section-title {
+  max-width: 60%;
+  margin: 0px 0px 0px 0px;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
