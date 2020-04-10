@@ -9,4 +9,9 @@
   text-decoration: none;
   cursor: default;
   z-index: 1;
+  transition: opacity 1s linear 0s;
+}
+
+.feinman__link:hover {
+  opacity: 0.5;
 }
