@@ -1,4 +1,7 @@
 @import url("./_theme/sectiom-title_theme_dark.css");
+@import url("./_place/section-title_place_techniques.css");
+@import url("./_place/section-title_place_video.css");
+@import url("./_place/section-title_place_resources.css");
 .section-title {
   max-width: 60%;
   margin: 0px 0px 0px 0px;

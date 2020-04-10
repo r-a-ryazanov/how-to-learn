@@ -1,4 +1,7 @@
 @import url("./_theme/section-subtitle_theme_dark.css");
+@import url("./_place/section-subtitle_place_techniques.css");
+@import url("./_place/section-subtitle_place_video.css");
+@import url("./_place/section-subtitle_place_resources.css");
 .section-subtitle {
   max-width: 60%;
   margin: 20px 0px 0px 0px;

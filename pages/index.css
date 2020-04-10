@@ -11,6 +11,13 @@
 @import url("../blocks/kaufman/kaufman.css");
 @import url("../blocks/kaufman_triangle/kaufman_triangle.css");
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/rotation/rotation.css");
+@import url("../blocks/techniques/techniques.css");
+@import url("../blocks/cards/cards.css");
+@import url("../blocks/video/video.css");
+@import url("../blocks/oakley/oakley.css");
+@import url("../blocks/khan/khan.css");
+@import url("../blocks/resources/resources.css");
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -20,4 +27,12 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+a {
+  transition: opacity 1s linear 0s;
+}
+
+a:hover {
+  opacity: 0.5;
 }
