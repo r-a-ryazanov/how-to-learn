@@ -7,7 +7,6 @@
   font-weight: 400;
   color: black;
   text-decoration: none;
-  cursor: default;
   z-index: 1;
   transition: opacity 1s linear 0s;
 }
